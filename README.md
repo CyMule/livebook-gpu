@@ -47,7 +47,7 @@ This repo lets you launch [Livebook](https://github.com/livebook-dev/livebook) i
 6. Copy and run the connection string that is output from the previous step.
 This will forward traffic your host's port 8080 and 8081 through the ssh tunnel on port 22 to the GPU node's port 8080 and 8081.
 
-    **You will need to wait about 7 minutes for the GPU drivers to install. You will be able to connect in the meantime, but you will need to run `newgrp` after waiting 7 minutes.**
+    **You will need to wait about 7 minutes for the GPU drivers to install. You will be able to connect in the meantime, but you will need to run `newgrp docker` after waiting 7 minutes.**
         
     It will look like this:
     ```bash
